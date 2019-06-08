@@ -4,3 +4,5 @@ def runner
   welcome
   initial_round
 end 
+
+runner
