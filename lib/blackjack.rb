@@ -36,19 +36,24 @@ def initial_round
 end
 
 def hit?(x)
-  # code hit? here
+# code hit? here
+#first prompt
   prompt_user
   answer = get_user_input
+  until answer== "s" || "h"
+    prompt_user
+    answer = get_user_input
+  end 
+#
   if answer == "s"
-  elsif answer == "h"
-    x + deal_card
   else
-    invalid_command
+    x + deal_card
+  end 
 end
 
 def invalid_command
   # code invalid_command here
-  puts ""
+  puts "Please enter a valid command"
 end
 
 #####################################################
