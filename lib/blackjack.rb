@@ -35,8 +35,12 @@ def initial_round
   init_sum
 end
 
-def hit?
+def hit?(x)
   # code hit? here
+  prompt_user
+  answer = get_user_input
+  if answer == s
+    
 end
 
 def invalid_command
