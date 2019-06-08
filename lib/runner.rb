@@ -1,6 +1,7 @@
 require_relative "blackjack.rb"
 
 def runner
-  initial_round
-  hit?
+  welcome
+  total = initial_round
+  hit?(first_output)
 end 
