@@ -46,6 +46,7 @@ def hit?(x)
   end 
 #
   if answer == "s"
+    x
   else
     x + deal_card
   end 
