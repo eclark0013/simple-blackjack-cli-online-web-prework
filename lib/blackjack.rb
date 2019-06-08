@@ -37,7 +37,7 @@ end
 
 def hit?(x)
 # code hit? here
-end_game if x>21
+while x<21
 #first prompt
   prompt_user
   answer = get_user_input
@@ -50,7 +50,9 @@ end_game if x>21
     x
   else
     x + deal_card
-  end 
+  end
+end 
+end_game
 end
 
 def invalid_command
