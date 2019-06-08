@@ -37,6 +37,9 @@ end
 
 def hit?(x)
 # code hit? here
+if x>21
+end_game
+end 
 #first prompt
   prompt_user
   answer = get_user_input
